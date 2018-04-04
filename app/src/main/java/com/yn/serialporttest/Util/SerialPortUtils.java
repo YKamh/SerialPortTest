@@ -77,7 +77,7 @@ public class SerialPortUtils{
     public void sendSerialPort(String data){
         Log.d(TAG, "sendSerialPort: 发送数据" + data);
         try{
-            byte[] sendData = data.getBytes();
+            byte[] sendData = data.getBytes("gb2312");
             this.data_ = new String(sendData);
             if (sendData.length > 0){
                 mOutputStream.write(sendData);
