@@ -13,7 +13,7 @@ import java.io.OutputStream;
 import android_serialport_api.SerialPort;
 
 /**
- * Created by xbp on 2018/4/3.
+ * Created by Yamh on 2018/4/3.
  */
 
 public class SerialPortUtils{
